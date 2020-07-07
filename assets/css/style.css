@@ -102,7 +102,7 @@ body {
 	top:0;
 	z-index:-1;
 	left:0;
-	background-color:rgba(20,54,108,0.4);
+	background-color:#14366c66;
 }
 .col-content-center{
 	display:flex;
@@ -344,44 +344,44 @@ table {
 ============================================*/
 
 /* Color Theme Swatches in Hex */
-.usmc-1-hex { color: #D90718; } /* 103268, 0c2b5b,   */
-.usmc-2-hex { color: #FDFBFE; } /* c3d0e4,  */
-.usmc-3-hex { color: #F2CD5C; } /* ff840 */
-.usmc-4-hex { color: #D6D6D6; } /* b6c0d1,  */
-.usmc-5-hex { color: #0D0D0D; } /* ff840 */
+.RNT-1-hex { color: #FF8400; }
+.RNT-2-hex { color: #14366C; }
+.RNT-3-hex { color: #E7E4E3; }
+.RNT-4-hex { color: #838C7D; }
+.RNT-5-hex { color: #0D0D0D; }
 
 /* Color Theme Swatches in RGBA */
-.usmc-1-rgba { color: rgba(217, 7, 24, 1); }
-.usmc-2-rgba { color: rgba(253, 251, 254, 1); }
-.usmc-3-rgba { color: rgba(242, 205, 92, 1); }
-.usmc-4-rgba { color: rgba(214, 214, 214, 1); }
-.usmc-5-rgba { color: rgba(13, 13, 13, 1); }
+.RNT-1-rgba { color: rgba(255, 132, 0, 1); }
+.RNT-2-rgba { color: rgba(20, 54, 108, 1); }
+.RNT-3-rgba { color: rgba(231, 228, 227, 1); }
+.RNT-4-rgba { color: rgba(131, 140, 125, 1); }
+.RNT-5-rgba { color: rgba(13, 13, 13, 1); }
 
-/* Colorusmclor Theme Swatches in HSLA */
-.usmc-1-hsla { color: hsla(355, 93, 43, 1); }
-.usmc-2-hsla { color: hsla(280, 60, 99, 1); }
-.usmc-3-hsla { color: hsla(45, 85, 65, 1); }
-.usmc-4-hsla { color: hsla(0, 0, 83, 1); }
-.usmc-5-hsla { color: hsla(0, 0, 5, 1); }
+/* Color Theme Swatches in HSLA */
+.RNT-1-hsla { color: hsla(31, 100, 50, 1); }
+.RNT-2-hsla { color: hsla(216, 68, 25, 1); }
+.RNT-3-hsla { color: hsla(15, 7, 89, 1); }
+.RNT-4-hsla { color: hsla(96, 6, 51, 1); }
+.RNT-5-hsla { color: hsla(0, 0, 5, 1); }
 
 .exp-primary-color{
 	color:#ff8400;
 }
 .exp-txt-color{
-	color:#D6D6D6;
+	color:#838C7D;
 }
 .light-color{
-	color:#FDFBFE;
+	color:#E7E4E3;
 }
 
 .exp-primary-bg{
-	background-color:#D90718;
+	background-color:#14366C;
 }
 .exp-secondary-bg{
-	background-color:#f9fbff;
+	background-color:#838C7D;
 }
 .light-bg{
-	background-color:#f9f9f9;
+	background-color:#E7E4E3;
 }
 
 .exp-gold{
@@ -389,10 +389,10 @@ table {
 }
 
 .exp-dark-bg{
-	background-color:#D90718;
+	background-color:#0D0D0D;
 }
 .shout-color{
-	color:#889ef7;
+	color:#da6a56;
 }
 .code-color{
 	color:#ff9a5d;
@@ -605,7 +605,7 @@ table {
 
 .start-header.scroll-on{
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-	background-color:#D90718;
+	background-color:#253c61;
 	padding:0;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
@@ -692,7 +692,7 @@ table {
 	border-color: transparent;
 }
 .navbar-light .navbar-nav .nav-link{
-	color: #fff;
+	color: #E7E4E3;
 	font-weight:400;
 	letter-spacing:.5px;
 	padding:30px 15px;
@@ -727,6 +727,7 @@ table {
 	border:0;
 	margin-top:0;
 	box-shadow: 0 0 12px rgba(0,0,0,0.1);
+	background-color: #E7E4E3;
 }
 
 
