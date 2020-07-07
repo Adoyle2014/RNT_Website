@@ -102,7 +102,7 @@ body {
 	top:0;
 	z-index:-1;
 	left:0;
-	background-color:rgba(20,54,108,0.9);
+	background-color:rgba(20,54,108,0.4);
 }
 .col-content-center{
 	display:flex;
@@ -816,7 +816,7 @@ button#searchsubmit{
 /* #Banner
 ================================*/
 #exp-inner-banner{
-	background-image:url('https://via.placeholder.com/1920X579');
+	background-image: url(/assets/img/landingPage2.png);
 	background-size:cover;
 	background-position:center;
 }
@@ -1910,7 +1910,7 @@ button#searchsubmit{
 
 .exp-home3-video.primary-overlay:before{
 
-	background-color:rgba(20,54,108,0.5);
+	/* background-color:rgba(20,54,108,0.5); */
 }
 
 .exp-home3-testimonial .testimonial-item{
@@ -2403,7 +2403,7 @@ button#searchsubmit{
 ==========================================*/
 .exp-home5-header,
 .exp-home5-values{
-	background-image:url('https://via.placeholder.com/1920X579');
+	background-image:url('/assets/img/landingPage2.png');
 	background-size:cover;
 	background-position:center;
 	position:relative;
@@ -2414,7 +2414,7 @@ button#searchsubmit{
  }
 
 .exp-home5-header.primary-overlay:before{
-	background-color:rgba(59,69,91,0.9);
+	/* background-color:rgba(59,69,91,0.9); */
 }
 
 .exp-home5-header .slick-modified-dots{
@@ -2455,6 +2455,7 @@ button#searchsubmit{
 
 .exp-home5-header form .input-group-append{
 	margin-left:10px;
+	padding-bottom: 20px;
 }
 .exp-home5-header form .input-group-append button{
 	border-radius:0;
