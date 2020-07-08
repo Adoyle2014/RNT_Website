@@ -357,7 +357,7 @@ Hover = #b15c02
 .RNT-3-hex { color: #E7E4E3; }
 .RNT-4-hex { color: #838C7D; }
 .RNT-5-hex { color: #0D0D0D; }
-.RNT-1-hover { color: #b15c02; }
+.RNT-1-hover { color: rgb(177, 92, 2); }
 .RNT-2-hover { color: #102d5c; }
 .RNT-3-hover { color: #c7bfbc; }
 .RNT-4-hover { color: #636b5e; }
@@ -372,7 +372,6 @@ Hover = #b15c02
 .light-color{
 	color:#E7E4E3;
 }
-
 .exp-primary-bg{
 	background-color:#14366C;
 }
@@ -382,11 +381,9 @@ Hover = #b15c02
 .light-bg{
 	background-color:#E7E4E3;
 }
-
 .exp-gold{
 	color:#ffae00;
 }
-
 .exp-dark-bg{
 	background-color:#0D0D0D;
 }
@@ -402,14 +399,12 @@ Hover = #b15c02
 .cart-color{
 	color:#5baff8;
 }
-
 .shout-icon-block:before{
 	background-color:#f0f3fd;
 }
 .code-icon-block:before{
 	background-color:#fff6f0;
 }
-
 .bulb-icon-block:before{
 	background-color:#f3f0ff;
 }
@@ -434,8 +429,6 @@ Hover = #b15c02
 .video-btn i{
 	color:#1c4689;
 }
-
-
 
 /*Spacing and alignment
 ============================================*/
@@ -470,10 +463,10 @@ Hover = #b15c02
 ==========================================*/
 
 .btn-primary{
-  color: #fff;
+  color: #E7E4E3;
   background-color: #ff8400;
   border-color: #ff8400;
-  box-shadow: 0 0 12px rgba(255,132,0,0.6);
+  box-shadow: 0 0 12px rgba(255, 132, 0, 0.75);
   transition:.3s;
   padding:10px 30px;
   border-radius:50px;
@@ -490,25 +483,25 @@ Hover = #b15c02
 .ms-btn-icon-outline.btn-primary:focus,
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:hover{
-  background-color: #db7100;
-  border-color: #db7100;
-  color: #fff;
-  box-shadow: 0 0 10px rgba(255,132,0,0.5);
+  background-color: #e67701;
+  border-color: #e67701;
+  color: #E7E4E3;
+  box-shadow: 0 0 15px rgba(255, 132, 0, 1);
 
 }
 .btn-secondary{
-  color: #ff6a48;
-  background-color: #ffdbd3;
-  border-color: #ffdbd3;
+  color: #14366C;
+  background-color: #E7E4E3;
+  border-color: #E7E4E3;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .ms-btn-icon-outline.btn-secondary:focus,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-outline-secondary:hover{
-  color: #fff;
-  background-color: #ff6a48;
-  border-color: #ff6a48;
+  color: #E7E4E3;
+  background-color: #14366C;
+  border-color: #14366C;
 }
 
 .exp-slick-dots li{
