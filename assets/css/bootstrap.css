@@ -8824,19 +8824,19 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #FF8400 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #0062cc !important;
+  color: #b15c02 !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #14366C !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #545b62 !important;
+  color: #102d5c !important;
 }
 
 .text-success {
@@ -8872,23 +8872,23 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #E7E4E3 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
-  color: #dae0e5 !important;
+  color: #c7bfbc !important;
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #0D0D0D !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #1d2124 !important;
+  color: #363636 !important;
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #838C7D !important;
 }
 
 .text-hide {

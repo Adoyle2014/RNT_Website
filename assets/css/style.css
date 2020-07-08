@@ -109,6 +109,12 @@ body {
 	flex-direction:column;
 	justify-content:center;
 }
+.col-content-right{
+	text-align: right;
+	display:flex;
+	flex-direction:column;
+	justify-content:right;
+}
 .seperator{
 	width:100%;
 	height:1px;
@@ -343,26 +349,19 @@ table {
 /*color and background
 ============================================*/
 
-/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex 
+Hover = #b15c02
+*/
 .RNT-1-hex { color: #FF8400; }
 .RNT-2-hex { color: #14366C; }
 .RNT-3-hex { color: #E7E4E3; }
 .RNT-4-hex { color: #838C7D; }
 .RNT-5-hex { color: #0D0D0D; }
-
-/* Color Theme Swatches in RGBA */
-.RNT-1-rgba { color: rgba(255, 132, 0, 1); }
-.RNT-2-rgba { color: rgba(20, 54, 108, 1); }
-.RNT-3-rgba { color: rgba(231, 228, 227, 1); }
-.RNT-4-rgba { color: rgba(131, 140, 125, 1); }
-.RNT-5-rgba { color: rgba(13, 13, 13, 1); }
-
-/* Color Theme Swatches in HSLA */
-.RNT-1-hsla { color: hsla(31, 100, 50, 1); }
-.RNT-2-hsla { color: hsla(216, 68, 25, 1); }
-.RNT-3-hsla { color: hsla(15, 7, 89, 1); }
-.RNT-4-hsla { color: hsla(96, 6, 51, 1); }
-.RNT-5-hsla { color: hsla(0, 0, 5, 1); }
+.RNT-1-hover { color: #b15c02; }
+.RNT-2-hover { color: #102d5c; }
+.RNT-3-hover { color: #c7bfbc; }
+.RNT-4-hover { color: #636b5e; }
+.RNT-5-hover { color: #363636; }
 
 .exp-primary-color{
 	color:#ff8400;
@@ -5177,6 +5176,11 @@ padding-right:50px;
 	.exp-home5-header .col-lg-8.col-content-center{
 		align-items: center;
 		text-align: center;
+
+	}
+	.exp-home5-header .col-lg-8.col-content-right{
+		align-items: right;
+		text-align: right;
 
 	}
 	.exp-home5-header .col-lg-8.col-content-center form{
